@@ -12,8 +12,8 @@ app.use(bodyParser.json());
 var amount = 0;
 paypal.configure({
     'mode': 'sandbox', //sandbox or live
-    'client_id': 'AYJwi-tw3BLeWvUIavzhYAKseBW6P-XIC0WxNPvJS05yMBIVBAPs2bgIXraj8DjD2GJVKBjvVMGy4xg-',
-    'client_secret': 'EBRBcCIUAv0Atc6e3hHzOy7Lu-l8luEVhCj6KMrlhIaheaNisaonrldoSBnW9MM4poaa3UiGzsc7kfUz'
+    'client_id': '',
+    'client_secret': ''
 });
 app.post('/pay', (req, res) => {
     console.log(req.body);
